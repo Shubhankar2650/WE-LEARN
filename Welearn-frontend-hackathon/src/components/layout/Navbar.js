@@ -42,14 +42,14 @@ export default function Navbar() {
                 className="object-contain w-12 h-6"
               />
               <h1 className="hidden font-bold tracking-tight uppercase cursor-pointer lg:block">
-                <span className="text-3xl text-blue-500">ME</span>Track
+                <span className="text-3xl text-blue-500">WE</span>Learn
               </h1>
             </a>
           </Link>
         </div>
         {isAuth ? (
           <div className="flex items-center gap-4">
-            <Link href={`/${user?.username}`}>
+            <Link href="/profile">
               <a className="text-xs font-bold border border-blue-300 btn btn-ghost hover:bg-blue-50 btn-sm">
                 Profile
               </a>
@@ -125,7 +125,6 @@ function Dropdown({ user, handleLogout }) {
               </div>
               <div>
                 <h2 className="text-lg font-bold">{user?.name}</h2>
-                <h2 className="text-sm font-semibold">@{user?.username}</h2>
                 <h3 className="text-sm font-semibold">{user?.email}</h3>
               </div>
             </div>
@@ -147,7 +146,7 @@ function Dropdown({ user, handleLogout }) {
                 </CustomLink>
               </Menu.Item>
               <Menu.Item>
-                <CustomLink href={`/${user?.username}`}>
+                <CustomLink href="/profile">
                   <a className="flex items-center p-4 py-3 gap-x-4 hover:bg-blue-50 active:bg-blue-300 rounded-xl">
                     <AiOutlineUser className="text-base font-bold" />
                     Profile

@@ -10,12 +10,12 @@ export default function Home() {
   return (
     <div className="overflow-hidden">
       <Header />
-      <HashnodeArticle />
+      {/* <HashnodeArticle /> */}
       <Channels />
       <Courses />
       <Features />
       <Team />
-      <HashnodeLike />
+      {/* <HashnodeLike /> */}
     </div>
   );
 }

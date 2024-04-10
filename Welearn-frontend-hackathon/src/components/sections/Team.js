@@ -11,21 +11,156 @@ const Team = () => {
               Our Team 😎
             </h1>
             <p className="text-lg font-medium text-center">
-              This platform is built for linode-hashnode hackathon 21 JUN - 30
-              JUN by these crazy hackers.
+              This platform is built as a final project for Chandigarh university
+              by these crazy hackers.
             </p>
           </div>
           <div className="flex flex-wrap items-center justify-center -m-4">
             <div className="w-full p-4 lg:w-1/4">
               <div className="flex flex-col items-center h-full text-center">
                 <img
-                  alt="mukul-rajpoot"
+                  alt="Avinash-kushwaha"
                   className="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
-                  src="https://avatars.githubusercontent.com/u/73209159?v=4"
+                  src="https://avatars.githubusercontent.com/u/120119840?v=4"
                 />
                 <div className="w-full">
                   <h2 className="text-lg font-medium title-font textWhite">
-                    Mukul Rajpoot
+                    Avinash kushwaha
+                  </h2>
+                  <h3 className="mb-3 text-gray-500">Full-Stack Developer</h3>
+                  <p className="mb-4">
+                    Friendly neighborhood developer. Helping people turn their
+                    ideas into sites & apps that work.
+                  </p>
+                  <span className="flex flex-wrap items-center justify-center gap-2 text-xl">
+                    <a
+                      href="https://github.com/Avinash79915"
+                      target="_blan"
+                    >
+                      <FaGithub />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/avinash79915/"
+                      target="_blan"
+                    >
+                      <FaLinkedinIn />
+                    </a>
+                    
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="w-full p-4 lg:w-1/4">
+              <div className="flex flex-col items-center h-full text-center">
+                <img
+                  alt="Shubhankar-kumar"
+                  className="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
+                  src="https://avatars.githubusercontent.com/u/96000370?v=4"
+                />
+                <div className="w-full">
+                  <h2 className="text-lg font-medium title-font textWhite">
+                    Shubhankar kumar
+                  </h2>
+                  <h3 className="mb-3 text-gray-500">Full-Stack Developer</h3>
+                  <p className="mb-4">
+                    I built more than 10 websites and web apps, most of which
+                    are live, serving thousands of people on the internet.
+                  </p>
+                  <span className="flex flex-wrap items-center justify-center gap-2 text-xl">
+                    <a href="https://github.com/Shubhankar2650" target="_blan">
+                      <FaGithub />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/shubhankar-kumar-263347200/"
+                      target="_blan"
+                    >
+                      <FaLinkedinIn />
+                    </a>
+                    
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="w-full p-4 lg:w-1/4">
+              <div className="flex flex-col items-center h-full text-center">
+                <img
+                  alt="Ketan Pal"
+                  className="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
+                  src="https://avatars.githubusercontent.com/u/88307951?v=4"
+                />
+                <div className="w-full">
+                  <h2 className="text-lg font-medium title-font textWhite">
+                    Ketan Pal
+                  </h2>
+                  <h3 className="mb-3 text-gray-500">Full-Stack Developer</h3>
+                  <p className="mb-4">
+                    Friendly neighborhood developer. Helping people turn their
+                    ideas into sites & apps that work.
+                  </p>
+                  <span className="flex flex-wrap items-center justify-center gap-2 text-xl">
+                    <a
+                      href="https://github.com/Ketan-Pal/Portfolio"
+                      target="_blan"
+                    >
+                      <FaGithub />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/ketanpal/"
+                      target="_blan"
+                    >
+                      <FaLinkedinIn />
+                    </a>
+                   
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-wrap items-center justify-center -m-4 mt-5">
+            <div className="w-full p-4 lg:w-1/4">
+              <div className="flex flex-col items-center h-full text-center">
+                <img
+                  alt="Mani Thakur"
+                  className="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
+                  src="https://media.licdn.com/dms/image/C4D03AQF587clIlxFMw/profile-displayphoto-shrink_400_400/0/1663952923894?e=1718236800&v=beta&t=8EEM8lvWEVui8Xp-ZdQ_FsnRNbske9tpONmw1btyuVo"
+                />
+                <div className="w-full">
+                  <h2 className="text-lg font-medium title-font textWhite">
+                    Mani Thakur
+                  </h2>
+                  <h3 className="mb-3 text-gray-500">Full-Stack Developer</h3>
+                  <p className="mb-4">
+                    Friendly neighborhood developer. Helping people turn their
+                    ideas into sites & apps that work.
+                  </p>
+                  <span className="flex flex-wrap items-center justify-center gap-2 text-xl">
+                    <a
+                      href="https://github.com/ManiThakur?tab=repositories"
+                      target="_blan"
+                    >
+                      <FaGithub />
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/in/mani-thakur-3973bb200"
+                      target="_blan"
+                    >
+                      <FaLinkedinIn />
+                    </a>
+                    
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="w-full p-4 lg:w-1/4">
+              <div className="flex flex-col items-center h-full text-center">
+                <img
+                  alt="yash pokharna"
+                  className="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
+                  src="https://media.licdn.com/dms/image/D5603AQGLZF7dt4tkvg/profile-displayphoto-shrink_400_400/0/1709034952503?e=1718236800&v=beta&t=xeJsivY7JYzu6qRPnSV4krdGc0i7M1pTXnruGPQ6Upw"
+                />
+                <div className="w-full">
+                  <h2 className="text-lg font-medium title-font textWhite">
+                  yash pokharna
                   </h2>
                   <h3 className="mb-3 text-gray-500">Full-Stack Developer</h3>
                   <p className="mb-4">
@@ -40,47 +175,12 @@ const Team = () => {
                       <FaGithub />
                     </a>
                     <a
-                      href="https://www.linkedin.com/in/mukul-rajpoot-262610/"
+                      href="https://www.linkedin.com/in/yash-pokharna/"
                       target="_blan"
                     >
                       <FaLinkedinIn />
                     </a>
-                    <a href="https://twitter.com/mukul_eth" target="_blan">
-                      <FaTwitter />
-                    </a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="w-full p-4 lg:w-1/4">
-              <div className="flex flex-col items-center h-full text-center">
-                <img
-                  alt="amit-kumar"
-                  className="flex-shrink-0 object-cover object-center w-full h-56 mb-4 rounded-lg"
-                  src="https://cdn.discordapp.com/attachments/987256512118399026/991299914699112538/CodiSource_2.png"
-                />
-                <div className="w-full">
-                  <h2 className="text-lg font-medium title-font textWhite">
-                    Amit
-                  </h2>
-                  <h3 className="mb-3 text-gray-500">Full-Stack Developer</h3>
-                  <p className="mb-4">
-                    I built more than 10 websites and web apps, most of which
-                    are live, serving thousands of people on the internet.
-                  </p>
-                  <span className="flex flex-wrap items-center justify-center gap-2 text-xl">
-                    <a href="https://github.com/alsoamit" target="_blan">
-                      <FaGithub />
-                    </a>
-                    <a
-                      href="https://www.linkedin.com/in/alsoamit/"
-                      target="_blan"
-                    >
-                      <FaLinkedinIn />
-                    </a>
-                    <a href="https://twitter.com/_alsoamit_" target="_blan">
-                      <FaTwitter />
-                    </a>
+                   
                   </span>
                 </div>
               </div>
