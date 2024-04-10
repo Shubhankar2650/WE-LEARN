@@ -42,7 +42,7 @@ export default function Navbar() {
                 className="object-contain w-12 h-6"
               />
               <h1 className="hidden font-bold tracking-tight uppercase cursor-pointer lg:block">
-                <span className="text-3xl text-blue-500">WE</span>Learn
+                <span className="text-3xl text-blue-500">WE</span>Learn API
               </h1>
             </a>
           </Link>
