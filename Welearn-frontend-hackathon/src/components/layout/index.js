@@ -46,7 +46,7 @@ const Layout = ({ children }) => {
         />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
-        <title>MeTrack - Track your YouTube Learning</title>
+        <title>WeLearn - Track your YouTube Learning</title>
         <meta name="title" content="MeTrack - Track your YouTube Learning" />
         <meta
           name="description"
